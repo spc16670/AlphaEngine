@@ -22,6 +22,7 @@ public class Code {
 	
 	// Main method
 	public static void main(String[] args) {
+		
 		new Code();
 	}
 	
@@ -993,7 +994,9 @@ public class Code {
 		
 		boolean printDataAsymm(double time){
 			String sep = new String(System.getProperty("file.separator"));
-			String folder = new String(sep + "home" + sep + "agolub" + sep + "workspace" + sep + "InvestmentStrategy" + sep + FXrate.toString() + "DataAsymmLiq.dat");
+			String folder = 
+				//new String(sep + "home" + sep + "agolub" + sep + "workspace" + sep + "InvestmentStrategy" + sep + FXrate.toString() + "DataAsymmLiq.dat");
+				"./resources" + sep + FXrate.toString() + "DataAsymmLiq.dat";
 			FileWriter fw = null;
 			
 			try{

@@ -53,7 +53,7 @@ public class Runner {
                     return -2;
                 }
             }
-        }else if( mode == 1 ){
+        } else if( mode == 1 ){
             if( price.getAsk() <= expectedDcLevel ){
                 mode = -1;
                 extreme = reference = price.getAsk();

@@ -1,3 +1,6 @@
+
+Data from: http://www.histdata.com/tag/csv/
+
 The code presented here relates to the book chapter cited below. There are two implementations of the trading model algorithm:
 
 1. *code.java*:
